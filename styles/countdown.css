@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: "stranger";
+  font-style:normal;
+
+}
+
+li {
+  display: inline-block;
+  font-size: 1.0em;
+  font-family: "stranger";
+  list-style-type: none;
+  padding: 2.0em;
+  text-transform: uppercase;
+  font-style:normal;
+}
+
+li span {
+  display: block;
+  font-size: 3.5rem;
+  font-family: "stranger";
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'stranger';
+  src: url('../fonts/Stranger back in the Night.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Grind';
+  src: url('../fonts/Grind and Death.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Aihara';
+  src: url('../fonts/AiharaHudemojiKaisho.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}

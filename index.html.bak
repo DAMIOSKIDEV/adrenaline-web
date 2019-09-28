@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Adrenaline Shirts</title>
+    <meta name="theme-color" content="#000000">
+    <link type="text/css" rel="stylesheet" href="styles/countdown.css">
+    <link type="text/js" href="scripts/countdown.js">
+  </head>
+  <body style="      background-color: #181818;">
+    <h1 style="height: 187px; text-align: center; font-size: 65px;"><span style="font-family: GrindAndDeath_Demo;"><span
+          style="color: #dd3d2d;">A</span><span style="color: white;">drenaline</span></span><sup
+        style="font-family: AiharaHudemojiKaisho;"><span tabindex="0" style="color: #ff9900;"
+          lang="ja">アドレナリン</span></sup></h1>
+    <h1 style="height: 45px; text-align: center;"> </h1>
+    <div class="container">
+      <h1 id="head" style="font-size: 60px; height: 153px;"><span style="font-family: Stranger back in the Night"
+          ;="">La boutique est ouverte dans:</span></h1>
+      <ul>
+        <script src="scripts/countdown.js"></script>
+        <li><span id="days"></span><span style="font-family: Stranger back in the Night;">Jours</span></li>
+        <li><span id="hours"></span><span style="font-family: Stranger back in the Night;">Heures</span></li>
+        <li><span id="minutes"></span><span style="font-family: Stranger back in the Night;">Minutes</span></li>
+        <li><span id="seconds"></span><span style="font-family: Stranger back in the Night;">Secondes</span></li>
+      </ul>
+    </div>
+  </body>
+</html>
