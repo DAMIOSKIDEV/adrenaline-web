@@ -1,7 +1,17 @@
  <!DOCTYPE html>
 <html>
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76209203-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-76209203-2');
+	</script>
+		<link rel="shortcut icon" href="faviconadrena.ico" type="image/x-icon">
+		<meta name="theme-color" content="#181818">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Contacts [#A]</title>
 		<style type="text/css">
 		
@@ -26,57 +36,42 @@
 			}
 			
 			main {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
+				padding-bottom: -10000px;
+				margin-bottom: 100px;
 				float: left;
 				width: 100%;
-			}
-			
-			#nav {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
-				float: left;
-				width: 230px;
-				margin-left: -100%;
-				background: rgb(32, 32, 32);
 			}
 			
 			#footer {
 				clear: left;
 				width: 100%;
-				background: rgb(26, 26, 26);
+				background: rgb(29, 29, 29);
 				text-align: left;
-				padding: 2.5px;
+				padding: 1.7px;
 				position: fixed;
     			bottom: 0;
 			}
 	
 			#wrapper {
-				overflow: hidden;
+				overflow: show;
 			}
 						
 			#content {
-				margin-left: 230px; /* Same as 'nav' width */
+				margin-left: 40px; /* Same as 'nav' width */
 			}
 			
 			.innertube {
-				margin: 15px; /* Padding for content */
+				margin: 10px; /* Padding for content */
 				margin-top: 0;
+			}
+
+			.active {
+			background-color: rgb(226, 75, 75);
+			color: white;
 			}
 		
 			p {
 				color: rgb(66, 66, 66);
-			}
-	
-			nav ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			
-			nav ul a {
-				color: rgb(22, 22, 22);
-				text-decoration: none;
 			}
 
 			ul {
@@ -122,12 +117,59 @@
 			font-style: normal;
 
 			}
+
+			@font-face {
+			font-family: 'Blood';
+			src: url('../fonts/Bloodseeker.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+
+			}
+
+			.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: rgb(26, 26, 26);
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+			}
+
+			.sidenav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #f1f1f1;
+			display: block;
+			transition: 0.3s;
+			}
+
+			.sidenav a:hover {
+			color: #f1f1f1;
+			}
+
+			.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+			}
+
+			@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+			}
 		
 		</style>	
 	
 	</head>
 	
-	<body>		
+	<body style="background-color: #181818;">		
 
 		<header id="header">
 			<div class="innertube">
@@ -137,33 +179,37 @@
 			</div>
 		</header>
 		
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="/index.html">Index</a>
+			<a href="/contact.html" class="active">Contact</a>
+			<a href="/about.html">À propos</a>
+		  </div>
+
+			<span style="font-size:25px;cursor:pointer; font-family: blood; line-height: 60px; color: #f1f1f1" onclick="openNav()">&#9776; Menu</span>
+
+			<script>
+			function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			}
+			</script>
+		
 		<div id="wrapper">
 		
 			<main>
 				<div id="content">
 					<div class="innertube">
-					  <h1 style="font-family: stranger; font-size: 125px; height: 19px;"><i>Contact</i><br>
+					  <h1 style="font-family: stranger; font-size: 125px; letter-spacing: 6px; text-align: center; color: rgb(236, 236, 236)">Contact<br>
 				      </h1>
-					  <p>A COMPLETER PAR AKWA</p>
-					  <h1 style="font-family: stranger; font-size: 125px; height: 19px;"><i>Réseaux sociaux</i><br>
-				      </h1>
-					  <p>A COMPLETER PAR AKWA</p>
+					  <p style="text-align: center; color:rgb(179, 179, 179); ">A compléter par Barry is on the flux omg omg big dick</p>
 					</div>
 				</div>
 			</main>
-			
-			<nav id="nav">
-				<div class="innertube">
-					<i><h3 style="color: white">Menu</h3></i>
-					<ul>
-						<li><a href="index.html" style="color: lightgray">Compte à rebours</a></li>
-						<li><a href="contact.html" style="color: lightgray">Contacts / Réseaux sociaux</a></li>
-						<li><a href="#" style="color: lightgray">À propos de nous</a></li>
-					</ul>
 				</div>
-			</nav>
-		
-		</div>
 		
 		<footer id="footer">
 			<div class="innertube">
