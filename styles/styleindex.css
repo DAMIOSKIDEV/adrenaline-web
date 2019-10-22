@@ -60,3 +60,18 @@ li span {
   font-style: normal;
 
 }
+
+#footer {
+  clear: left;
+  width: 100%;
+  background: rgb(29, 29, 29);
+  text-align: left;
+  padding: 1.7px;
+  position: fixed;
+    bottom: 0;
+}
+
+.innertube {
+  margin: 10px; /* Padding for content */
+  margin-top: 0;
+}
