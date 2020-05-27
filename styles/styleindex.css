@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: "stranger";
+  font-style:normal;
+
+}
+
+li {
+  display: inline-block;
+  font-size: 1.0em;
+  font-family: "stranger";
+  list-style-type: none;
+  padding: 2.0em;
+  text-transform: uppercase;
+  font-style:normal;
+}
+
+li span {
+  display: block;
+  font-size: 3.5rem;
+  font-family: "stranger";
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'stranger';
+  src: url('../fonts/StrangerBackInTheNight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Grind';
+  src: url('../fonts/GrindAndDeath.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Aihara';
+  src: url('../fonts/AiharaHudemojiKaisho.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Blood';
+  src: url('../fonts/Bloodseeker.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  }
+
+#footer {
+  width: 100%;
+  background: rgb(29, 29, 29);
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+}
+
+.innertube {
+  margin-top: 0;
+  vertical-align: middle;
+  padding:19px;
+  text-align: left;
+}
+
+p {
+  color: rgb(66, 66, 66);
+  text-align: left;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: rgb(26, 26, 26);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+  }
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  }
+
+.active {
+  background-color: rgb(226, 75, 75);
+  color: white;
+  }
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  }
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  }
